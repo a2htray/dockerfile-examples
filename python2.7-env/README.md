@@ -9,7 +9,7 @@ Python2.7 with virtaulenv
 docker build -t python2.7-env:{TAG} .
 ```
 
-## RUN image
+## run image
 
 if you run the image without any argument, like below:
 
