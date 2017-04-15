@@ -2,7 +2,6 @@ FROM alpine
 
 MAINTAINER a2htray <a2htray.yuen@gmail.com>
 
-
 COPY requirements.txt /requirements.txt
 
 RUN apk add --no-cache python python-dev py-pip && \
@@ -15,3 +14,5 @@ RUN apk add --no-cache python python-dev py-pip && \
 RUN apk add --no-cache bash
 
 VOLUME ["/root/venv"]
+
+CMD python
