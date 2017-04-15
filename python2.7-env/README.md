@@ -24,5 +24,9 @@ docker run -it python2.7-env:{TAG} /bin/bash
 ```
 ## virtualenv
 
+```bash
+source /root/venv/bin/activate
+```
+
 install whatever you want in virtual python environment
 
