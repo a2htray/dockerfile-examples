@@ -25,9 +25,9 @@ RUN apk del curl make gcc g++ python linux-headers binutils-gold gnupg
 
 COPY helloworld.js /helloworld.js
 
-RUN mkdir -p /workplace
+RUN mkdir -p /workspace
 
-VOLUME ["/workplace"]
+VOLUME ["/workspace"]
 
 EXPOSE 4000
 
