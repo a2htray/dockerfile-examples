@@ -35,5 +35,5 @@ docker run -it node:{TAG}
 # example
 
 ```bash
-docker run -it -p 4000:4000 -v /your/path:/workplace node:{TAG} /bin/bash
+docker run -it -p 4000:4000 -v /your/path:/workspace node:{TAG} /bin/bash
 ```
