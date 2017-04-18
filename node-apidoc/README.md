@@ -1,7 +1,7 @@
 node-apidoc
 ==============
 
-A tool for building api documents base on node
+A tool for generating api documents base on node
 
 [http://apidocjs.com/](http://apidocjs.com/)
 
