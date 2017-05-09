@@ -12,4 +12,6 @@ RUN mkdir /root/.ssh
 
 VOLUME ["/workspace", "/root/.ssh"]
 
+EXPOSE 4000
+
 ENTRYPOINT ["/entrypoint.sh"]
