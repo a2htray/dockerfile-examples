@@ -1,2 +1,4 @@
 dockerfs
 postgresql
+*.sh
+*.sh.swp
